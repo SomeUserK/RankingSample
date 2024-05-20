@@ -67,6 +67,46 @@
   box-shadow: 0 0 10px rgba(87, 255, 9, 0.5);
 }
 
+.game_card_extra {
+  z-index: 100;
+  position: absolute;
+  /* display: none; */
+
+  /* left: 73vw; */
+  /* bottom: 400px; */
+  /* margin-top: -345px; */
+  margin-left: 10px;
+
+  width: 455px;
+  height: 200px;
+  /* border: 1px solid #2f8c9c00; */
+  background-color: #05080600;
+  text-align: left;
+
+  transition: all 1s;
+}
+
+.game_card_extra > * {
+  transition: all 0.5s;
+  display: none;
+  color: #00000000;
+
+  margin: 25px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.game_card > .game_card_items:hover ~ .game_card_extra {
+  /* display: flex; */
+  border: 1px solid #2f8c9c94;
+  background-color: #050806;
+}
+
+.game_card > .game_card_items:hover ~ .game_card_extra > * {
+  color: #fff;
+  display: block;
+}
+
 /* @media screen and (max-width: 600px) {
   .game_card_items {
     font-size: 12px;
@@ -79,17 +119,11 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .game_card {
-    width: 80vw;
-  }
-  .game_number {
-    font-size: 20px;
-    margin-left: 80px;
-  }
-}
-
 @media screen and (max-width: 480px) {
+  .game_card {
+    margin-top: 120px;
+  }
+
   .game_card_items {
     justify-content: center;
   }
@@ -105,5 +139,30 @@
   .game_img {
     width: 170px;
     height: 100px;
+  }
+
+  .game_card_extra {
+    width: 70vw;
+    height: fit-content;
+    justify-self: center;
+    /* margin-left: 25px; */
+  }
+
+  .game_card_extra > p {
+    font-size: 14px;
+  }
+
+  .game_card_extra > * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .game_card {
+    width: 80vw;
+  }
+  .game_number {
+    font-size: 20px;
+    margin-left: 80px;
   }
 }
