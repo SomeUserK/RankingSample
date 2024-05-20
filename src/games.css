@@ -79,6 +79,16 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .game_card {
+    width: 80vw;
+  }
+  .game_number {
+    font-size: 20px;
+    margin-left: 80px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .game_card_items {
     justify-content: center;
@@ -95,15 +105,5 @@
   .game_img {
     width: 170px;
     height: 100px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .game_card {
-    width: 80%;
-  }
-  .game_number {
-    font-size: 20px;
-    margin-left: 80px;
   }
 }
