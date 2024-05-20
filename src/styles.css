@@ -44,6 +44,7 @@ body {
 .titulo {
   position: absolute;
   top: 20px;
+  text-shadow: #5b8a2f7a 0 0 15px;
   /* left: 40vw; */
 }
 
