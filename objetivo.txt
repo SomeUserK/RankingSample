@@ -1,0 +1,21 @@
+Proyecto 2: UI de Ranking
+
+Descripción:
+Desarrolla una interfaz de usuario (UI) para mostrar un ranking de elementos o entidades sin la utilización de JavaScript. El objetivo es crear una representación visual clara y fácil de entender del ranking basado en ciertos criterios o métricas, utilizando únicamente HTML y CSS.
+
+Características:
+
+Diseño Limpio y Organizado: Diseña una interfaz de usuario limpia y organizada que muestre el ranking de manera clara y legible. Utiliza una disposición ordenada y un diseño visual atractivo para hacer que la información sea fácil de entender.
+
+Elementos del Ranking: Muestra una lista de elementos o entidades clasificados en función de un criterio específico. Por ejemplo, podrías mostrar un ranking de equipos deportivos según su posición en la tabla de clasificación.
+
+Métricas y Criterios de Clasificación: Indica claramente la métrica o criterio utilizado para clasificar los elementos en el ranking. Esto podría ser puntos, puntuaciones, votos, etc.
+
+Detalles de los Elementos: Proporciona información adicional sobre cada elemento del ranking, como su nombre, posición, puntuación, etc. Esta información puede presentarse en forma de etiquetas o tarjetas junto a cada elemento del ranking.
+
+Diseño Responsivo: Asegúrate de que la interfaz de usuario sea responsiva y se vea bien en dispositivos móviles y de escritorio para garantizar una experiencia de usuario óptima en todos los dispositivos.
+
+
+Las condiciones de evaluación al igual que la modalidad de entrega serán los mismos que el anterior proyecto.
+
+Fecha de entrega: Lunes 20/05 a las 10:00 AM.

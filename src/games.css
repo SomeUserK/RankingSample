@@ -1,0 +1,45 @@
+.game_card {
+  width: 100%;
+}
+
+.game_card_items {
+  position: relative;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bold;
+
+  width: 90%;
+
+  border: 1px solid #2f9c2f94;
+  border-radius: 1px;
+  transition: all 1s;
+}
+
+.game_number {
+  font-size: 50px;
+  color: gold;
+}
+
+.game_card_items > p {
+  margin-top: 10px;
+}
+
+.game_card_items:hover {
+  background-color: #2f9c2f94;
+  color: #fff;
+
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .game_card {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .game_card {
+    width: 80%;
+  }
+}
